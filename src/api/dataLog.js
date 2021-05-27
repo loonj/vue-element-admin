@@ -10,6 +10,7 @@ export function getDataLog(query) {
 }
 
 export function getDataLogTest(query) {
+  // return req({ 这么写也可以
   return req.request({
     url: '/sfmyapi/ZSGoods.api',
     method: 'get',
